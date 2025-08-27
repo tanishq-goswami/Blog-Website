@@ -12,7 +12,7 @@ return (
 <header className="sticky top-0 z-30 backdrop-blur bg-white/70 dark:bg-slate-900/60 border-b border-slate-200 dark:border-slate-800">
 <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
 <Link to="/" className="font-bold text-xl">
-<span className="bg-gradient-to-r from-indigo-500 to-sky-500 bg-clip-text text-transparent">Advanced</span>Blog
+<span className="bg-gradient-to-r from-indigo-500 to-sky-500 bg-clip-text text-transparent">Blog</span> Website
 </Link>
 <nav className="hidden md:flex items-center gap-6">
 <NavLink to="/" className={({isActive}) => isActive ? 'text-indigo-600 dark:text-indigo-400' : 'hover:text-indigo-600'}>Posts</NavLink>
